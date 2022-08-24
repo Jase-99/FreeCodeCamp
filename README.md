@@ -1,6 +1,6 @@
 # FreeCodeCamp - Responsive Web Design Certification (NEW)
 
-This project is a project that houses backups and current projects within the freeCodeCamp responsive web design certifcation
+This project is a project that houses backups and current projects within the freeCodeCamp responsive web design certification
 
 
 ## Acknowledgements
