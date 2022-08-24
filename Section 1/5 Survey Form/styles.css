@@ -1,0 +1,69 @@
+#title {
+  text-align:center;
+  padding-bottom:0px;
+  margin-bottom:0px;
+  font-size: 3em;
+}
+#description {
+  font-style:italic;
+  text-align:center;
+  padding-top:0px;
+  margin-top:5px;
+  font-size: 2em;
+}
+body { 
+  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://www.expertafrica.com/images/animal/89984a517ae248338037e4b6435c5358.jpg)
+}
+.form {
+  display:block;
+  text-align:center;
+}
+#survey-form {
+  display:inline-block;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 10px;
+  border-radius:0.5rem;
+  min-width: 800px;
+  align:center;
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  color:white;
+  font-size:23px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    margin-right:20px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.input-radio, .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  text-align:left;
+}
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  text-align:left;s
+}
