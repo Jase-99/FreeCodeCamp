@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         Jason's Survey Form
     </title>
@@ -24,31 +26,32 @@
         <fieldset>
           <label id="number-label">Overall score (1-10):</label>
           <input type="number" id="number" name="score" min="1" max="10" placeholder="8" class="form-control" required>
-          <label id="dropdown-label">How frequently do you visit the page?</label>
-            <select id="dropdown" name="frequncy" class="form-control" required>
+          <label id="dropdown-label">How frequently do you visit the page?
+            <select id="dropdown" name="frequency" class="form-control" required>
             <option value="daily">Daily</option>
             <option value="daily">Weekly</option>
             <option value="daily">Monthly</option>
             <option value="daily">Yearly</option>
             <option value="daily">Only Once</option>
             </select>
+          </label>
         </fieldset>
         <fieldset>
           <label id="radio-label">Would you recommend the page? </label>
-          <label><input class="inline" type="radio" id="radio" name="recommend" value="yes" required />Yes</label>
-          <label><input class="inline" type="radio" id="radio" name="recommend" value="no" required />No</label>
-          <label><input class="inline" type="radio" id="radio" name="recommend" value="maybe" required />Maybe</label>
-          <label><input class="inline" type="radio" id="radio" name="recommend" value="unsure" required />Unsure</label>
+          <label><input class="inline" type="radio" id="yes" name="recommend" value="yes" required />Yes</label>
+          <label><input class="inline" type="radio" id="no" name="recommend" value="no" required />No</label>
+          <label><input class="inline" type="radio" id="maybe" name="recommend" value="maybe" required />Maybe</label>
+          <label><input class="inline" type="radio" id="unsure" name="recommend" value="unsure" required />Unsure</label>
           <br>
           <label id="checkbox-label">What do you like about the page?</label>
-          <label><input class="inline" type="checkbox" id="checkbox" name="color" value="color" />Color</label>
-          <label><input class="inline" type="checkbox" id="checkbox" name="style" value="style" />Style</label>
-          <label><input class="inline" type="checkbox" id="checkbox" name="information" value="information" />Information</label>
-          <label><input class="inline" type="checkbox" id="checkbox" name="nothing" value="nothing" />Nothing</label>
+          <label><input class="inline" type="checkbox" id="colour" name="pageLikes" value="color" />Color</label>
+          <label><input class="inline" type="checkbox" id="style" name="pageLikes" value="style" />Style</label>
+          <label><input class="inline" type="checkbox" id="information" name="pageLikes" value="information" />Information</label>
+          <label><input class="inline" type="checkbox" id="nothing" name="pageLikes" value="nothing" />Nothing</label>
         </fieldset>
         <fieldset>
-          <label id="comments-label" >Additional comments:</label>
-          <textarea name="comments" rows="10" cols="30"></textarea>
+          <label id="comments-label" >Additional comments:<textarea name="comments" rows="10" cols="30"></textarea></label>
+          
         </fieldset>    
         <input id="submit" type="submit" value="Submit" />
       </form>
